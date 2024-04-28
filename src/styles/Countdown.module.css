@@ -1,0 +1,68 @@
+
+.countdown {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 100%;
+    color: #162c4e;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 72px;
+}
+
+.time {
+    width: 132px;
+    height: 72px;
+    text-align: center;
+    display: inline-block;
+}
+
+
+.text {
+    width: 132px;
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    background-image: url('../images/bg-timer.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+@media all and (max-width: 1025px) {
+    .countdown {
+        font-size: 36px;
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+    .time {
+        width: 64px;
+        height: 36px;
+    }
+    .text {
+        width: 64px;
+        font-size: 12px;
+        background-image: url('../images/bg-timer1024.svg');
+    }
+    .colon {
+        padding: 0 12px;
+    }
+}
+@media all and (max-width: 361px) {
+    .countdown {
+        padding: 0 10px;
+        margin-bottom: 40px;
+    }
+    .time {
+        width: 64px;
+    }
+    .text {
+        width: 64px;
+        font-size: 12px;
+        background-image: url('../images/bg-timer1024.svg');
+    }
+    .colon {
+        padding: 0 4px;
+    }
+}

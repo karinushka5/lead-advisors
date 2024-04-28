@@ -1,0 +1,24 @@
+.header {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0 93px 0;
+}
+
+
+@media all and (max-width: 1025px) {
+    .header {
+        padding: 100px 0 166px 0;
+    }
+}
+@media all and (max-width: 426px) {
+    .header {
+        padding: 80px 0 90px 0;
+    }
+}
+@media all and (max-width: 321px) {
+    .header {
+        padding: 80px 0 66px 0;
+    }
+}
